@@ -1,0 +1,99 @@
+@media screen and (min-width:1193px) {
+    .empower-sm {
+        display: none;
+    }
+    .view-btn-div{
+        padding: 0px 450px;
+      }
+}
+
+@media screen and (max-width:1193px) {
+    .courses-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .view-btn-div{
+        padding: 0px 150px;
+      }
+
+    .cat-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .empower-sm {
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .courses-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .cat-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .empower-sm {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .courses-container {
+        display: block;
+    }
+  
+    .empower-lg {
+        display: none;
+    }
+
+    .empower-sm {
+        font-size: 19px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        display: block;
+    }
+
+    h1 {
+        font-size: 25px !important;
+    }
+
+    h2 {
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (max-width:533px) {
+    .brand {
+        font-size: 40px;
+    }
+
+    .navBrand {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width:393px) {
+    .brand {
+        font-size: 30px;
+    }
+
+    .navBrand {
+        font-size: 20px;
+    }
+
+
+}
