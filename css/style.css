@@ -39,7 +39,6 @@ body {
 .courses-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* grid-row-gap: ; */
   grid-column-gap: 40px;
 }
 .view-btn{
@@ -358,7 +357,9 @@ h6,
   margin-top: 25px;
   text-align: center;
 }
-
+.testimonial h5{
+  padding: 10px 20px;
+}
 .testimonial-carousel .owl-dot {
   position: relative;
   display: inline-block;
@@ -368,7 +369,22 @@ h6,
   border-radius: 15px;
   background: var(--main);
 }
+.testimonial{
+  background-color: var(--main);
+  padding: 19px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+.testimonial img{
+ border: 5px solid white;
+ border-radius: 50%;
+}
+.testimonal-main{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 17px 3px;
 
+}
 .testimonial-carousel .owl-dot::after {
   position: absolute;
   content: "";
